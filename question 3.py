@@ -10,4 +10,4 @@ if x == 0:
 else:
     for i in range(1, x):
         res = {i: (i * i)}
-        print(res)
+        print( ",".join(res))
