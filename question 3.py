@@ -8,7 +8,7 @@ x = int(input("Enter a number: "))
 if x == 0:
     print("Enter a nonzero number")
 else:
-    for i in range(0, x+1):
+    for i in range(0, x + 1):
         res = {i: (i * i)}
         print(res)
 
