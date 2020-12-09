@@ -7,5 +7,6 @@
 # ('34', '67', '55', '33', '12', '98')
 
 list = input("Enter some comma separated numbers: ")
-print(list.split(","))
-print(tuple(list))
+newlist = list.split(",")
+print(newlist)
+print(tuple(newlist))
