@@ -7,3 +7,12 @@ Also please include simple test function to test the class methods.
 Hints:
 Use __init__ method to construct some parameters
 """
+
+class InputOutString(object):
+    def __init__(self):
+        self.s = ""
+    def getString(self):
+        self.s = input()
+    def printString(self):
+        print(self.s.upper())
+
