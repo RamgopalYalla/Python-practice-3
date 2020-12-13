@@ -9,17 +9,17 @@ Use __init__ method to construct some parameters
 """
 
 
-class InputOutString(object):
+class InputOutString():
     def __init__(self):
-        self.str1 = ""
+        self.s = ""
 
-    def getString(self):
-        self.str1 = input()
+    def get_String(self):
+        self.s = input()
 
-    def printString(self):
+    def print_String(self):
         print(self.s.upper())
 
 
-s.Obj = InputOutString()
-s.Obj.getString()
-s.Obj.printString()
+s = InputOutString()
+s.get_String()
+s.print_String()
