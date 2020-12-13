@@ -1,6 +1,13 @@
-n = int(input("enter a value: "))
-d = dict()
-for i in range(1, n + 1):
-    d[i] = i * i
+class IOString():
+    def __init__(self):
+        self.str1 = ""
 
-print("d")
+    def get_String(self):
+        self.str1 = input()
+
+    def print_String(self):
+        print(self.str1.upper())
+
+str1 = IOString()
+str1.get_String()
+str1.print_String()

@@ -8,15 +8,18 @@ Hints:
 Use __init__ method to construct some parameters
 """
 
+
 class InputOutString(object):
     def __init__(self):
-        self.s = ""
+        self.str1 = ""
+
     def getString(self):
-        self.s = input()
+        self.str1 = input()
+
     def printString(self):
         print(self.s.upper())
 
-str.Obj = InputOutString()
-str.Obj.getString()
-str.Obj.printString()
 
+s.Obj = InputOutString()
+s.Obj.getString()
+s.Obj.printString()
