@@ -16,3 +16,7 @@ class InputOutString(object):
     def printString(self):
         print(self.s.upper())
 
+str.Obj = InputOutString()
+str.Obj.getString()
+str.Obj.printString()
+
