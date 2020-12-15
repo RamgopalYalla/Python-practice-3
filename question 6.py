@@ -16,4 +16,12 @@ If the output received is in decimal form, it should be rounded off to its neare
 In case of input data being supplied to the question, it should be assumed to be a console input.
 """
 
+import math
+c=50
+h=30
+value = []
+items=[x for x in raw_input().split(',')]
+for d in items:
+    value.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
 
+print ','.join(value)
