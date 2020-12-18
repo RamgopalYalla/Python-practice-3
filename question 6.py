@@ -17,5 +17,6 @@ In case of input data being supplied to the question, it should be assumed to be
 """
 
 import math
-
+c=50
+h=30
 
