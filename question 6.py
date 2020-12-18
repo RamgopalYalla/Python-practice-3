@@ -18,11 +18,4 @@ In case of input data being supplied to the question, it should be assumed to be
 
 import math
 
-c = 10
-h = 30
-value = []
-items = [x for x in input("Enter value of x: ").split(',')]
-for d in items:
-    value.append(str(int(round(math.sqrt(2 * c * float(d) / h)))))
 
-print(','.join(value))
