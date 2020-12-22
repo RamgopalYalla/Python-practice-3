@@ -19,7 +19,8 @@ In case of input data being supplied to the question, it should be assumed to be
 import math
 C = 50
 H = 30
-D = int(input("Enter comma separated value: "))
-D2 = D.split(',')
-X = C + H + D2
-print(X)
+x = int(input("Enter comma separated value: "))
+items = x.split(',')
+for D in items:
+    v.append(str(int(round(math.sqrt((2 * C * D)/H)))))
+print(','.join(v))
