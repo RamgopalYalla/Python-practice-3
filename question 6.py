@@ -17,12 +17,9 @@ In case of input data being supplied to the question, it should be assumed to be
 """
 
 import math
-c=50
-h=30
-value = []
-items=[x for x in input().split(',')]
-for d in items:
-    value.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
-
-print(','.join(value))
-
+C = 50
+H = 30
+D = int(input("Enter comma separated value: "))
+D2 = D.split(',')
+X = C + H + D2
+print(X)
