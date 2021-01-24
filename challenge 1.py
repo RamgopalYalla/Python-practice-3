@@ -9,3 +9,6 @@ Example:
 
         stutter("enthusiastic") ➞ "en... en... enthusiastic?"
 """
+x = input("Enter a word for shutter effect: ")
+y = f'{x[0:2]}...{x[0:2]}...{x}?'
+print(y)
